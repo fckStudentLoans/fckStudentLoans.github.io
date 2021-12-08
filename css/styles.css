@@ -11305,7 +11305,7 @@ header.masthead {
   background-color: #343a40;
   background: url("/assets/img/bg-masthead.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
+  padding-top: 6rem;
   padding-bottom: 8rem;
 }
 header.masthead:before {
@@ -11323,12 +11323,8 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    background-size: contain;
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-  header.masthead text-center {
-    padding-top:2rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
@@ -11339,12 +11335,16 @@ header.masthead h1, header.masthead .h1 {
   padding: 3rem;
 }
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 18rem;
   background-size: cover;
 }
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
   }
 }
 
