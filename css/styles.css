@@ -11367,6 +11367,8 @@ header.masthead h1, header.masthead .h1 {
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
+  margin: auto;
+  max-width: 60%;
 }
 @media (min-width: 768px) {
   .call-to-action {
