@@ -11378,6 +11378,7 @@ header.masthead h1, header.masthead .h1 {
     */background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    max-width: 100%;
   }
 }
 .call-to-action:before {
