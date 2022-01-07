@@ -11323,8 +11323,9 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 8rem;
+    padding-top: 15rem;
     padding-bottom: 8rem;
+    min-height: 35rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
@@ -11343,7 +11344,7 @@ header.masthead h1, header.masthead .h1 {
     padding: 7rem;
   }
   .showcase .showcase-img {
-    min-height: 30rem;
+    min-height: 35rem;
     background-size: cover;
   }
 }
@@ -11368,7 +11369,7 @@ header.masthead h1, header.masthead .h1 {
   padding-top: 7rem;
   padding-bottom: 7rem;
   margin: auto;
-  max-width: 60%;
+  max-width: 90%;
 }
 @media (min-width: 768px) {
   .call-to-action {
@@ -11378,7 +11379,7 @@ header.masthead h1, header.masthead .h1 {
     */background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    max-width: 100%;
+    max-width: 60%;
   }
 }
 .call-to-action:before {
