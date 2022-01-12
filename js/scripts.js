@@ -1,7 +1,6 @@
-/*!
-* Start Bootstrap - Landing Page v6.0.4 (https://startbootstrap.com/theme/landing-page)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+window.onload = function () {
+    jQuery("#numSubs").html('10');
+    jQuery('.box .percent svg circle:nth-child(2)').css('stroke-dashoffset','calc(440 - (440 * 10) / 100)');
+ }
+            
+        
